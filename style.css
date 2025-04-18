@@ -1,0 +1,144 @@
+.body-content{
+    margin-top: 70px;
+    padding-top: 60px;
+    padding-left: 100px;
+    background-image: url(background.webp);
+    border: 2px solid rgb(18, 19, 18);
+   
+    color: white;
+}
+
+.body-content input{
+    margin-bottom: 50px;
+    background-color: rgb(5, 65, 5);
+    border: 1.5px solid white;
+    color: white;
+}
+.nav-item{
+    margin-left: 40px;
+}
+.nav-item a{
+    color: black;
+    transition: 0.3s linear;
+}
+.nav-item a:hover{
+    transform: translateY(-5px);
+    transition: 0.3s linear;
+}
+.input{
+    margin-left: 30px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(5, 65, 5);
+}
+.dtl-content img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.4s linear;
+}
+.dtl-content img:hover{
+    position: relative;
+    transform: translateY(-30px);
+    transition: 0.4s linear;
+}
+.dtl-content span{
+    color:rgb(15, 103, 15);
+}
+.content2 p{
+    text-align: justify;
+    font-size: 21px;
+}
+/*---------------- Card Section---------------------- */
+.cardheading{
+    margin-top: 70px;
+}
+.card-section{
+    margin-top: 10px;
+}
+.cardheading span{
+    color:rgb(15, 103, 15);
+}
+.card{
+    display: inline-block;
+    text-align: center;
+    margin: 40px;
+    border-radius: 20px;
+    transition: 0.5s linear;
+}
+.card img{
+    width: 100px;
+    display: inline-block;
+}
+.card-body p{
+    font-size: 21px;
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(4, 49, 4);
+    color: white;
+    transform: translateY(-40px);
+    transition: 0.5s linear;
+}
+
+/* -----------------Final Box -------------- */
+
+.trathead{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.ctabox{
+    margin-top: 40px;
+}
+.ctabox img{
+    transition: transform 0.5s;
+    transition:  0.5s ease-in;
+}
+.main-ctabox{
+    background-color: rgb(31, 32, 40);
+    color: white;
+}
+.ctabox .col-md-6:hover img{
+    transform: rotateY(180deg);
+    transition:  0.5s ease-in;
+}
+/*   Footer Page     */
+
+.main-footer{
+    margin-top: 50px; 
+    padding: 50px;
+    text-align: center; 
+    background-image: url(background.webp);
+}
+
+.footer-icons i{
+    width: 300px;
+    font-size: 30px;
+    display: inline;
+    margin: 30px;   
+    color: white;
+    border-radius: 25px;
+}
+.footer-icons a{
+    text-decoration: none;
+}
+.footer-links{
+    margin-top: 35px;
+}
+.footer-links a{
+    margin: 25px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family:sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+.copyright{
+    padding-top: 20px;
+    margin-top: 20px;
+    color: white;
+}
